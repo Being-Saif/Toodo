@@ -1,0 +1,98 @@
+    body {
+        background-color: aqua;
+    }
+    
+    #heading {
+        text-align: center;
+    }
+    
+    .main-app-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        /* background-color: rgba(83, 12, 12, 0.856); */
+        max-width: 800px;
+        min-width: 200px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 2px 15px #ccc;
+    }
+    /* .input-card {
+        border: 2px solid coral;
+        min-width: 400px;
+        max-width: 600px;
+    } */
+    
+    .input-card input {
+        width: 80%;
+        min-width: 20%;
+        padding: 8px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid grey;
+        /* margin: 0; */
+    }
+    
+    #buttonn {
+        height: 30px;
+        width: 10%;
+        /* outline: none; */
+        /* border-radius: 7px; */
+        border: none;
+        background-color: lightgreen;
+        border-top-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        cursor: pointer;
+    }
+    /* .label {
+        border: 2px solid coral;
+        margin-top: 16px;
+    } */
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        /* background-color: white; */
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        border-radius: 14px;
+        padding: 5px;
+        /* border: 1px solid #ccc; */
+        box-shadow: 0px 2px 8px #ccc;
+        border: 1px solid #ccc;
+    }
+    
+    .items {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        /* border: 1px solid green; */
+    }
+    
+    button {
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(245, 245, 49);
+        border-top-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .items>button:nth-child(2) {
+        background-color: red;
+    }
+    
+    .container h3 {
+        min-height: 40px;
+    }
+    
+    #clearlist {
+        width: 200px;
+        margin: 15px;
+        color: chocolate;
+        background-color: black;
+    }
